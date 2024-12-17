@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-image: url(pexels-nicole-berro-991141-2393789.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color: whitesmoke;
+}
+
+h1  {
+    text-align: center;
+    margin: 1rem;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    width: 800px;
+    height: 1150px;
+   margin-left: 275px;
+   margin-right: 275px;
+   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+.firstname {
+    display: block;
+    margin-bottom: 25px;
+    width: 94%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(219, 215, 210);
+}
+.lastname {
+    display: block;
+    margin-bottom: 25px;
+    width: 94%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(219, 215, 210);
+}
+.Email {
+    display: block;
+    margin-bottom: 25px;
+    width: 94%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(219, 215, 210);
+}
+
+.Password {
+    display: block;
+    margin-bottom: 25px;
+    width: 94%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(219, 215, 210);
+}
+
+hr {
+    margin-top: 3rem;
+    
+}
+
+.formcontrol {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.formcontrol .profile {
+    margin-top: 50px;
+}
+
+.formcontrol .file {
+    background-color: transparent;
+    border: 1px solid grey;
+    width: 95%;
+}
+
+.age {
+    width: 95%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(219, 215, 210);
+}
+
+.option-level {
+    width: 95%;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(219, 215, 210);
+}
+
+
+.formcontrol label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .formcontrol textarea {
+    background-color: rgb(219, 215, 210);
+    border: 1px solid rgb(73, 9, 54);
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 6px;
+    padding-bottom: 60px;
+    display: block;
+    width: 93%;
+  }
+  
+  .checkbox{
+    margin-top: 2rem;
+  }
+
+  a {
+    color: whitesmoke;
+  }
+
+  button {
+    background-color: rgb(126, 42, 12);
+    border: 1px solid grey;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    padding: 0.5rem;
+  }

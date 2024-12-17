@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <P>Please fill out this form with the required information</P>
+
+    <form>
+        <label for="First Name">Enter Your First Name:</label>
+        <input type="text" class="firstname"/>
+
+        <label for="Last Name">Enter Your Last Name:</label>
+        <input type="text" class="lastname"/>
+
+        <label for="Email">Enter Your Email:</label>
+        <input type="email" class="Email"/>
+
+        <label for="Password">Create a New Password:</label>
+        <input type="password"
+        min="8"
+        max="20"
+        class="Password"/>
+
+        <hr>
+        
+       
+    <div class="formcontrol">
+        <label for="Account" class="account">Account type (required)</label>
+        <label for="personal">
+        <input type="radio" 
+        value="1"
+        name="fooby[2][]"
+         class="Personal">Personal </input>
+        </label>
+    </div>
+
+    <div class="formcontrol"></div>
+        <label for="business">
+        <input type="radio" 
+        value="1"
+        name="fooby[2][]"
+         class="Business">Business </input>
+        </label>
+    </div>
+
+        <hr>
+
+    <div class="formcontrol">
+        <label for="profile picture" class="profile">Upload a profile picture:</label>
+        <input type="file" name="file" class="file">
+    </div>
+
+    <div class="formcontrol">
+        <label for="age">Input your age (years):</label>
+        <input type="number" 
+        min="13"
+        max="100"
+        name="age" id="age"
+        class="age">
+    </div>
+    
+    <div class="formcontrol">
+        <label for="us">How did you hear about us?</label>
+        <select class="option-level">
+            <option value="optional">(Select an option)</option>
+            <option value="optional">Tiktok</option>
+            <option value="optional">Linkedin</option>
+            <option value="optional">Instagram</option>
+            <option value="optional">Job site</option>
+        </select>
+    </div>
+
+    <div class="formcontrol">
+        <label for="bio">Provide a bio:</label>
+        <textarea
+         name="comment" 
+         id="comment"
+         class="input-textarea"
+         placeholder="i like coding on the beach..."></textarea>
+    </div>
+
+    <div class="formcontrol">
+         <label for="input">
+            <input type="checkbox" class="checkbox">I accept the <a href="">terms and conditions</a></label>
+         </label>
+    </div>
+
+         <button>
+            Submit
+         </button>
+          
+
+
+       
+    </form>
+</body>
+</html>
